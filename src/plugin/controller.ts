@@ -1,5 +1,5 @@
-import {ClientAction} from '../app/utils/clientActions';
-import {figmaActions} from '../app/utils/figmaAction';
+import {ClientAction} from '../utils/actions/client-actions';
+import {figmaActions} from '../utils/actions/figma-action';
 
 figma.showUI(__html__);
 
