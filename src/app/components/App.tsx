@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {clientActions} from '../../utils/actions/client-actions';
 import {FigmaAction} from '../../utils/actions/figma-action';
-import '../styles/ui.css';
+import '../styles/figma-plugin-ds.css';
 
 declare function require(path: string): any;
 
