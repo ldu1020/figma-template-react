@@ -6,8 +6,8 @@ interface BoxType {
 
 const Box: React.FC<WithCssClassName<BoxType>> = ({
     //
-    layout = ['.flex'],
-    spacing = ['.p-medium'],
+    layout = [],
+    spacing = [],
     style,
     children,
 }) => {
